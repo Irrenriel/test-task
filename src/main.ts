@@ -8,7 +8,7 @@ async function bootstrap() {
   console.log('Application is running on: http://localhost:3000');
 }
 
-bootstrap().catch(err => {
+bootstrap().catch((err) => {
   console.error('Failed to start application:', err);
   process.exit(1);
 });
