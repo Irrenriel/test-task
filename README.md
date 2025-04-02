@@ -80,7 +80,7 @@ API на NestJS для управления задачами с аутентиф
 - `src/migrations/` - Миграции TypeORM
 
 ## Переменные окружения:
-- `DATABASE_HOST=db`
+- `DATABASE_HOST=localhost`
 - `DATABASE_PORT=5432`
 - `DATABASE_USER=postgres`
 - `DATABASE_PASSWORD=password`
